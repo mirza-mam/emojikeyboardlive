@@ -1,0 +1,250 @@
+.navbar-brand{
+    font-family: 'Rakkas';
+}
+
+.navbar-nav{
+	margin-left: 70%;
+	
+}
+
+@media only screen and (max-width:768px){
+	
+	.navbar-nav{
+	margin-left: 0%;
+	
+}
+	
+	}
+
+
+.nav-item div{
+	margin-top: 9px;
+	margin-left: 10px;
+	display: inline-block;
+	height: auto;
+}
+
+.nav-item div iframe{
+
+	display: inline-block;
+	
+}
+
+.tweet-btn{
+	border-radius: 12px;
+	padding: 5px 15px 6px 15px;
+	background-color: #007bff;
+	color: white;
+	font-size: 14px;
+	
+}
+
+.tweet-btn:hover{
+	color:white;
+	
+}
+
+.alert-css{
+	text-align: center;
+}
+
+.keyboard-container{
+    width:100%;
+    height:670px;
+    position:absolute;
+}
+
+
+textarea{
+	width: 100%;
+	font-size: 16px;
+}
+
+#show_flags	{
+	width:98%;
+	padding: 8px;
+	border: 1px solid #D5D5D5;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+#show_flags:focus	{
+	background-color: #28a745;
+	color: white;
+}
+
+.btn-outline-success{
+    width:98%;
+	border-radius: 0px;
+	text-align: center;
+    letter-spacing: 18px;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.emoji-container{
+    background-color:white;
+    overflow:auto !important;
+    height:100%;
+    margin-top:10px;
+    padding:25px;
+}
+
+.emoji-container div{
+	display:none;
+	height: 400px;
+	overflow: scroll;
+}
+
+.emoji-style{
+   margin:18px !important;
+   padding:2px;
+   font-size: 36px;
+}
+
+
+.emoji-style:hover{
+    background-color:rgb(133, 133, 133);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.flag-emojis-style{
+	background-color: transparent;
+	margin:18px !important;
+	width: 44px;
+	border: none;
+	cursor: pointer;
+	font-size: 36px;
+	text-align: center;
+}
+
+	@media only screen and (max-width:375px)
+{
+	.emoji-style{
+	font-size: 21px;
+	margin:14px !important;
+		}
+	
+	.flag-emojis-style{
+	font-size: 18px;
+	margin:6px !important;
+		}
+	
+}	
+
+.flag-emojis-style:hover{
+    background-color:rgb(133, 133, 133);
+    border-radius: 5px;
+}
+
+.categories{
+    padding:18px;
+    bottom: 0px;
+    width: 100%;
+    height:auto;
+    background: #DDDDDD !important;
+}
+
+.categories div{
+    width: 100%;
+}
+
+.sticky_area_one{
+	position: sticky;
+	top: 0px;
+	background-color: white;
+}
+
+.sticky_area_two{
+	position: sticky;
+	top: 60px;
+	background-color: white;
+}
+
+.sticky_area_three{
+	position: sticky;
+	top: 160px;
+}
+
+@media screen and (max-width:1024px){
+
+    .categories div{
+    overflow: scroll;
+    }
+}
+
+.categories-btn{
+   padding:6px 48px 6px 48px; 
+}
+
+@media only screen and (max-width:425px){
+	
+	.categories{
+    padding:5px; 
+	}
+	.categories-btn{
+   	font-size: 13px; 
+	padding:10px;
+	}
+	
+}
+
+/*----------------------Main Page Content Section CSS-----------------------*/
+
+.content-container{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	top: 850px;
+	position: relative;
+	text-align: justify;
+}
+
+.content-container h2{
+	text-align: center;
+	
+}
+
+.content-container-first-child{
+	padding: 50px;
+}
+
+
+/*----------------------Blog Page CSS-----------------------*/
+
+.blog-text{
+	text-align: justify;
+	margin-top: 3%;
+}
+
+.about-text{
+	text-align: justify;
+	margin-top: 10px;
+}
+
+.about-title{
+	font-size: 13vw !important;
+	text-align: center;}
+
+.blog-wall-caption{
+	position:absolute;
+	height: auto; 
+	width: auto; 
+	top:20%; 
+	left: 30%;
+	color: aliceblue;
+}		
+
+.blog-wall-caption h1{
+	font-size: 20vw !important;
+	text-shadow: 2px 2px 2px black;
+}
+
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #393939;
+	box-sizing:border-box;
+	padding: 70px;
+	margin-top: 100px;
+}
